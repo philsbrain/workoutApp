@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Weights Workout</title>
+  <link rel="stylesheet" href="./styles.css" type="text/css" />
+  <script src="./main.js"></script>
+  <script src="./api/weightsworkout.js"></script>
+  <meta content="width=device-width, initial-scale=1" name="viewport" />  <!-- for media queries to work -->
+</head>
+
+<body onload="handleRandomWeightsWorkout()" >
+
+  <!-- Header -->
+
+  <header>
+    <ul id="navBar">
+        <li><a href="bodyweightWorkout.html">Bodyweight</a></li>
+        <li><a href="runningWorkout.html">Running</a></li>
+        <li><a href="weightsWorkout.html">Weights</a></li>
+      </ul>
+  </header>
+
+  <div>
+    <h1>Random Weights Wokout</h1>
+  </div>
+
+  <div>
+    <h3>Complete 10 to 15 reps per set!</h3>
+  </div>
+
+  <!-- <div class="workoutSummary">
+
+        <p id="chestExOne" ></p> 
+        <p id="backExOne" ></p>
+        <p id="tricepExOne" ></p>
+        <p id="bicepExOne" ></p>
+        <p id="shouldersExOne" ></p>
+        <p id="legsExOne" ></p>
+        <p id="legsExTwo" ></p>
+        <p id="absExOne" ></p>
+        <p id="absExTwo" ></p>
+
+  </div> -->
+
+
+
+  <div class="workoutBlock">
+
+    <h4 id="chestExOne" ></h4>
+        <form>
+            <div>
+                <label for="chestExOne">Set 1 Weight:</label>
+                <input id="chestExOneWeightSetOne"></input>
+            </div>
+            <div>
+                <label for="chestExOne">Set 1 Reps:</label>
+                <input id="chestExOneRepsSetOne"></input>
+            </div>
+        </form>
+        <form>
+            <div>
+                <label for="chestExOne">Set 2 Weight:</label>
+                <input id="chestExOneWeightSetTwo"></input>
+            </div>
+            <div>
+                <label for="chestExOne">Set 2 Reps:</label>
+                <input id="chestExOneRepsSetTwo"></input>
+            </div>
+        </form>    
+        <form>
+            <div>
+                <label for="chestExOne">Set 3 Weight:</label>
+                <input id="chestExOneWeightSetThree"></input>
+            </div>
+            <div>
+                <label for="chestExOne">Set 3 Reps:</label>
+                <input id="chestExOneRepsSetThree"></input>
+            </div>
+        </form>     
+
+    <!-- <h4 id="backExOne" ></h4>
+        <form>
+            <div>
+                <label for="backExOne">Set 1 Weight:</label>
+                <input id="backExOneWeightSetOne"></input>
+            </div>
+            <div>
+                <label for="backExOne">Set 1 Reps:</label>
+                <input id="backExOneRepsSetOne"></input>
+            </div>
+        </form>
+        <form>
+            <div>
+                <label for="backExOne">Set 2 Weight:</label>
+                <input id="backExOneWeightSetTwo"></input>
+            </div>
+            <div>
+                <label for="backExOne">Set 2 Reps:</label>
+                <input id="backExOneRepsSetTwo"></input>
+            </div>
+        </form>    
+        <form>
+            <div>
+                <label for="backExOne">Set 3 Weight:</label>
+                <input id="backExOneWeightSetThree"></input>
+            </div>
+            <div>
+                <label for="backExOne">Set 3 Reps:</label>
+                <input id="backExOneRepsSetThree"></input>
+            </div>
+        </form>
+
+
+    <h4 id="tricepExOne" ></h4>
+    <h4 id="bicepExOne" ></h4>
+    <h4 id="shouldersExOne" ></h4>
+    <h4 id="legsExOne" ></h4>
+    <h4 id="legsExTwo" ></h4>
+    <h4 id="absExOne" ></h4>
+    <h4 id="absExTwo" ></h4> -->
+
+    </div> 
+
+    <div class="buttonDiv" id="weightsWorkoutSubmitButton">
+        <button type="button" onclick="addWeightsWorkout()">Submit Workout</button>
+    </div>
+
+
+</body>  
+
+</html>
